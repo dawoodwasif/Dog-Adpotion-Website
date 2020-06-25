@@ -1,0 +1,161 @@
+#title{
+  background-color: #00a8cc;
+  color: white;
+  height: 600px;
+}
+.iphone{
+  border-radius: 7%;
+  width: 300px;
+  transform: rotate(25deg);
+  margin-left: 6%;
+  margin-top: 2%;
+  position: absolute;
+  right: 30%;
+}
+h1{
+  font-family: 'Bree Serif', serif;
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 800;
+  line-height: 1.5;
+}
+p{
+  font-family: "Bree Serif",serif;
+}
+.container-fluid{
+  padding: 2% 15%;
+}
+
+body{
+font-family: 'Montserrat', serif;
+}
+
+.navbar{
+  padding: 0 0 4rem;
+}
+
+.navbar-brand{
+  font-family: 'Bree Serif', serif;
+  font-size: 2rem;
+}
+
+.nav-item{
+  padding: 0 1.3rem;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.dd-btn{
+  margin: 5% 3% 5% 0;
+}
+
+#features{
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+h2{
+font-family: 'Montserrat-bolder', sans-serif;
+font-weight: 700;
+  font-size: 2.5rem;
+
+
+}
+.icon{
+  color: #12cad6;
+  margin-bottom : 1.5rem;
+}
+
+.icon:hover{
+  color: #00a8cc;
+}
+#testimonials{
+  background-color: #12cad6;
+  color: white;
+  text-align: center;
+
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #12cad6;
+  text-align: center;
+
+}
+
+.c-logo{
+  width: 10%;
+  margin: 0 30px 50px ;
+}
+
+.carousel-item{
+  padding: 7% 25%;
+}
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.p-card{
+  padding: 2% 3%;
+}
+
+.btn-g:hover{
+  background-color: #fdd998;
+  border-color: yellow;
+}
+
+.p-heading{
+  color: #00bcd4;
+}
+
+@media (max-width: 1250px) {
+  .iphone{
+    position: static;
+    transform: rotate(0);
+    padding-top: 3%;
+  }
+  #title{
+    text-align: center;
+    height: auto;
+  }
+}
+
+#cta{
+  background-color: #00bcd4;
+  text-align: center;
+  color: white;
+  padding: 7% 15%;
+}
+
+.cta-heading{
+  font-family: "Montserrat", sans-serif;
+  font-size: 3rem;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+#footer{
+  padding: 7% 15%;
+  text-align: center;
+}
+.si{
+  margin: 20px 10px;
+}
